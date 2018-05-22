@@ -33,7 +33,6 @@ class CommentBox extends Component {
 		// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 		fetch('/api/comments/')
 			.then((data) => {
-				
 				return data.json();
 			})
 			.then((res) => {
